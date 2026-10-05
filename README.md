@@ -1,47 +1,52 @@
-# Hang Fung Liu
+<!-- Draft for Liuhangfung/Liuhangfung. Review the private-project wording before publishing. -->
 
-### Backend & Systems Engineer
+# Hi, I'm Liuhangfung
 
-I build backend services that turn real product workflows into **reliable APIs, durable data, and maintainable operations**. My focus is pragmatic engineering: clear service boundaries, predictable behaviour, and software that another engineer can run, review, and extend.
+Backend engineer focused on **event-driven systems**, **AI-enabled products**, and **reliable financial-platform infrastructure**.
 
-> Currently focused on Go services, API design, PostgreSQL-backed applications, integration workflows, and containerised delivery.
+[![Backend Engineering](https://img.shields.io/badge/Focus-Backend%20Engineering-1f6feb)](#)
+[![Distributed Systems](https://img.shields.io/badge/Focus-Distributed%20Systems-6f42c1)](#)
+[![AI Systems](https://img.shields.io/badge/Focus-AI%20Systems-0f766e)](#)
 
-## Engineering Focus
+## What I Build
 
-| Area | What I care about |
-|---|---|
-| **Backend systems** | Clear API contracts, useful error handling, and service boundaries that remain easy to change. |
-| **Data & workflows** | Correct persistence, transactional thinking, asynchronous integrations, and operationally safe defaults. |
-| **Delivery quality** | Reproducible local setup, automated checks, focused pull requests, and documentation that reduces handover cost. |
+I work on systems where correctness, latency, observability, and safe delivery matter:
 
-## Selected Public Work
+- Event-driven services and data pipelines
+- API gateways, authentication boundaries, and service-to-service integrations
+- AI-agent orchestration connected to real product workflows
+- Containerised deployments with repeatable CI/CD and operational runbooks
 
-### [EECP Booking Telegram Bot](https://github.com/Liuhangfung/eecp-backend)
-A Go service for booking one-hour EECP machine sessions, with machine availability, user self-service flows, administrator controls, PostgreSQL persistence, Docker Compose setup, and Telegram group notifications.
+## Featured Work
 
-**What it demonstrates:** domain workflow modelling, bot/API integration, database-backed scheduling, configuration through environment variables, and a containerised local development path.
+### Midas Platform — Financial Intelligence Backend *(private)*
 
-## Core Toolkit
+I contribute to a production-oriented platform for multi-asset market data, research, strategy signals, paper trading, and graph-based analytics.
 
-**Backend** — Go, REST API design, service integration  
-**Data** — PostgreSQL, relational modelling, migrations  
-**Delivery** — Docker, Docker Compose, Git, GitHub Actions  
-**Engineering practice** — testing, documentation, configuration management, incremental delivery
+**Engineering demonstrated**
 
-## How I Build
+- A **30+ module** Go and Python monorepo with a gateway-managed public API boundary
+- Redis pub/sub and streams for asynchronous service coordination, PostgreSQL as the system of record, and Neo4j for graph intelligence
+- A LangGraph orchestrator with specialist agents, accessed through controlled REST and MCP interfaces
+- Docker Compose local environments, Helm-based deployments, automated CI, and Prometheus/Grafana observability
 
-- Begin with the user or operator workflow, then define a small and explicit system boundary.
-- Keep configuration and credentials outside source code; use safe examples for local setup.
-- Prefer readable code, focused commits, and validation that makes changes easy to review.
-- Document setup, trade-offs, and operational steps so a project is useful beyond its original author.
+> The source repository is private. This summary intentionally omits proprietary implementation details, credentials, customer data, and operational configuration.
 
-## What You Can Expect From My Repositories
+## Technical Toolkit
 
-- A concise README explaining the problem, architecture, setup, and validation path.
-- Sensible configuration examples without committed credentials.
-- Clear commit history and changes that are scoped to a purpose.
-- A preference for working, documented systems over unfinished experiment collections.
+**Backend:** Go, Python, REST APIs, asynchronous processing  
+**Data:** PostgreSQL, Redis, Neo4j  
+**AI systems:** LangGraph, LLM tool orchestration, MCP  
+**Delivery:** Docker, Kubernetes, Helm, GitHub Actions, Google Cloud Build  
+**Quality:** automated tests, conventional commits, documentation, release automation
 
----
+## Engineering Principles
 
-*This profile highlights public work and engineering practices. Private work is intentionally not described here.*
+- Design clear service boundaries and make data flow explicit.
+- Build safe defaults: configuration outside code, least-privilege access, and no credentials in source control.
+- Prefer observable systems: health checks, metrics, structured diagnostics, and runbooks.
+- Make delivery repeatable with tests, CI gates, and small reviewable pull requests.
+
+## GitHub
+
+This profile highlights work I can describe publicly. For private production work, I focus on sharing the engineering outcomes and system-design lessons without exposing code or sensitive details.
